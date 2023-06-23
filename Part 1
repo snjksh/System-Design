@@ -1,0 +1,32 @@
+HLD refers to the overall system architecture at a microlevel. LLD details HLD at a micro level with component level design.
+
+Functional Requirements: These are the requirements that the end user specifically demands as basic facilities that the system should offer. 
+Non-functional requirements: These are basically the quality constraints that the system must satisfy according to the project contract. 
+They basically deal with issues like:
+• Security
+• Reliability
+• Scalability
+• Performance
+
+Availability vs Reliability
+Reliability is the measure of how long a machine performs its intended function, whereas availability is the measure of the percentage of time a machine is operable. For example, a machine may be available 90% of the time, but reliable only 75% of the time from a performance standpoint.
+
+Scalability vs Elasticity
+Scalability is the ability to add, remove, or reconfigure hardware and software resources to handle an increase or decrease in usage. Elasticity is automatically scaling up or down resources to meet user demands. The key difference between scalability and elasticity is the level of automation.
+
+Confidentiality vs Integrity
+Confidentiality protects information (data) from unauthorized access. Integrity is the accuracy and consistency of data as well as the completeness and reliability of systems.
+
+Symmetric vs Asymmetric encryption
+Both encryption methods use keys to encrypt and decrypt data. The main difference is that symmetric encryption uses the same key to encrypt and decrypt data. In contrast, asymmetric encryption uses a pair of keys – a public key to encrypt data and a private key to decrypt information
+
+TLS vs SSL
+SSL is technology your applications or browsers may have used to create a secure, encrypted communication channel over any network. However, SSL is an older technology that contains some security flaws. Transport Layer Security (TLS) is the upgraded version of SSL that fixes existing SSL vulnerabilities.
+
+CPU vs GPU vs TPU
+CPU: Central Processing Unit. Manage all the functions of a computer.
+GPU: Graphical Processing Unit. Enhance the graphical performance of the computer.
+TPU: Tensor Processing Unit. Custom build ASIC to accelerate TensorFlow projects.
+
+CAP theorem
+The CAP theorem maintains that a distributed system can deliver only two of three desired characteristics: consistency, availability, and partition tolerance.
